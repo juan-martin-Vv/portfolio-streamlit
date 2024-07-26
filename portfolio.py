@@ -3,8 +3,8 @@ import streamlit as st
 import toml
 import google.generativeai as genia
 import numpy as np
-from mediaFunc import *
-from segmenter import *
+from mediaFunc import check_image_buffer, face_detect_buffer
+from segmenter import imag_segmeter
 import mediapipe as mp
 
 st.set_page_config(

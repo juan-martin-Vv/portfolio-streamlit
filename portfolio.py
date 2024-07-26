@@ -22,8 +22,9 @@ api_key=""
 with open('./keys.toml','r') as f:
     config = toml.load(f)
     api_key=config['keys']['google']
-genia_key_api = os.environ.get('GENIA_API_KEY', api_key)
-print("llave",genia_key_api)
+#genia_key_api = os.environ.get('GENIA_API_KEY', api_key)
+
+genia_key_api = st.secrets["API_KEY"]
 genia.configure(api_key=genia_key_api)
 about_short= config["about"]['ing']
 model = genia.GenerativeModel('gemini-1.5-flash')

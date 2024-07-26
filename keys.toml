@@ -1,0 +1,21 @@
+[keys]
+
+google = ""
+
+
+[about]
+esp = """
+        Hola soy un desarrollador que esta dando
+        sus primeros paso en el este gran mundo, 
+        del IT y la intenligencia artificial. Tengo
+        gran interes por la vision computacional con
+        la ayuda de OpenCV y conceptos basicos de 
+        maquetar modelos con TensorFlow.
+        """
+ing = """
+        Hi, I'm a developer who is taking his first 
+        steps in this great world of IT and artificial 
+        intelligence. I have a great interest in computer 
+        vision with the help of OpenCV and basic concepts 
+        of modeling with TensorFlow.
+"""

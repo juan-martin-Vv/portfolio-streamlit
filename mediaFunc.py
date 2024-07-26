@@ -26,7 +26,7 @@ def face_detect_buffer(buffer):
     img1=buffer_to_img(buffer=buffer)
     #img1 = cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
     # STEP 2: Create an FaceDetector object.
-    base_options = python.BaseOptions(model_asset_path='./models/blaze_face_short_range.tflite')
+    base_options = python.BaseOptions(model_asset_path='./blaze_face_short_range.tflite')
     options = vision.FaceDetectorOptions(base_options=base_options)
     detector = vision.FaceDetector.create_from_options(options)
 
